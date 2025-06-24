@@ -1,0 +1,11 @@
+data/raw/
+data/processed/
+venv/
+
+# inncluir los archivos csv y xls 
+*.csv
+*.xls
+*.xlsx
+
+
+
