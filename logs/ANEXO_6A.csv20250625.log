@@ -1,0 +1,7 @@
+2025-06-25 15:32:43,859 ERROR: Error al leer el archivo CSV: [Errno 2] No such file or directory: 'etl\\raw\\raw/ANEXO_6A.csv'
+2025-06-25 15:39:33,376 INFO: Archivo procesado guardado en: etl\etl_processed\2025-06-25_ANEXO_6A.csv
+2025-06-25 16:41:12,677 INFO: Archivo procesado guardado en: etl\etl_processed\2025-06-25_ANEXO_6A.csv
+2025-06-25 16:49:08,180 INFO: Archivo procesado guardado en: etl\etl_processed\2025-06-25_ANEXO_6A.csv
+2025-06-25 16:53:01,176 INFO: Archivo procesado guardado en: etl\etl_processed\2025-06-25_ANEXO_6A.csv
+2025-06-25 16:55:30,482 INFO: Archivo procesado guardado en: etl\etl_processed\2025-06-25_ANEXO_6A.csv
+2025-06-25 17:12:03,890 INFO: Archivo procesado guardado en: etl\etl_processed\2025-06-25_ANEXO_6A.csv
