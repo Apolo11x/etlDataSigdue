@@ -31,8 +31,16 @@ def get_initial_config(file_type="archivo_sigdue.csv"):
             "encoding": "utf-8",
             "has_header": True,
             "fields": [
-                {"name": "AÑO", "type": "numeric"},
-                {"name": "COD_MPIO", "type": "numeric"},
+#                {"name": "Nombre del Campo", 
+#                 "type": "Tipo del Campo", 
+#                 "size":"Tamaño", 
+#                 "clean":True #limpiar? , 
+#                 "encrypt": True # Cifrar ? , 
+#                 "load": True # Cargar en la base de datos , 
+#                 "field": "ANO"
+# },
+                {"name": "AÑO", "type": "numeric", "size":"4", "clean":True},
+                {"name": "COD_MPIO", "type": "numeric", "size":"3", "clean":True},
                 {"name": "MUNICIPIO", "type": "string"},
                 {"name": "COD_DANE", "type": "numeric"},
                 {"name": "ESTABLECIMIENTO", "type": "string"},
