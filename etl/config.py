@@ -125,7 +125,7 @@ def get_initial_config(file_type="archivo_sigdue.csv"):
                 {"name": "SRPA", "type": "string" , "size":"2", "clean":True, "load": True, "field": "SRPA"},
                 {"name": "PAIS_ORIGEN", "type": "string" , "size":"3", "clean":True, "load": True, "field": "PAIS_ORIGEN"},
                 {"name": "NACIONALIDAD", "type": "string" , "size":"10", "clean":True, "load": True, "field": "NACIONALIDAD"},
-                {"name": "TRASTORNOS_ESPECIFICOS", "type": "string" , "size":"2", "clean":True , "load": True, "field": "TRASTORNOS_ESPECIFICOS"},
+                {"name": "TRASTORNOS_ESPECIFICOS", "type": "string","size":"2", "clean":True , "load": True, "field": "TRASTORNOS_ESPECIFICOS"},
             ]
         }
     }
